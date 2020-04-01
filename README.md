@@ -4,4 +4,6 @@ which generates the best possible caption for a image describing it.
 
 The model is trained on 2 neural networks, a ANN for training the images and a RNN for training the captions, and then joined by using the decoders.
 
-The 'glove.6B.50d' was used for embedding the words
+The 'glove.6B.50d' tokenizer was used for embedding the words.
+
+The model is made using the Keras api and trained using the Tensorflow Backend.
